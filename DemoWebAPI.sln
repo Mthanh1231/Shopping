@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.WebAPI", "WS.WebAPI\WS.WebAPI.csproj", "{E3882FFE-A040-4179-B38C-F72BAFC8804F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.WebAPI", "WS.WebAPI\WS.WebAPI.csproj", "{E3882FFE-A040-4179-B38C-F72BAFC8804F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A8B8DE74-E171-47BC-AA55-33701BF4DAA8}"
 EndProject
@@ -17,25 +17,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notificatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{40C9573B-DF1F-4B5C-93B4-CB0C77C44FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Auth.Domain", "Services\Auth\WS.Auth.Domain\WS.Auth.Domain.csproj", "{B469AE42-46EA-4BDE-8144-64B5DA586FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Auth.Domain", "Services\Auth\WS.Auth.Domain\WS.Auth.Domain.csproj", "{B469AE42-46EA-4BDE-8144-64B5DA586FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Auth.ApplicationService", "Services\Auth\WS.Auth.ApplicationService\WS.Auth.ApplicationService.csproj", "{EA516929-B081-4C0F-A6EB-606FE1287176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Auth.ApplicationService", "Services\Auth\WS.Auth.ApplicationService\WS.Auth.ApplicationService.csproj", "{EA516929-B081-4C0F-A6EB-606FE1287176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Auth.Infrastructure", "Services\Auth\WS.Auth.Infrastructure\WS.Auth.Infrastructure.csproj", "{046A5C70-8570-4694-B7FE-CA09998FF454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Auth.Infrastructure", "Services\Auth\WS.Auth.Infrastructure\WS.Auth.Infrastructure.csproj", "{046A5C70-8570-4694-B7FE-CA09998FF454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Auth.Dtos", "Services\Auth\WS.Auth.Dtos\WS.Auth.Dtos.csproj", "{79503F5D-519C-4523-9ABD-7D6524F677A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Auth.Dtos", "Services\Auth\WS.Auth.Dtos\WS.Auth.Dtos.csproj", "{79503F5D-519C-4523-9ABD-7D6524F677A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Product.Domain", "Services\Product\WS.Product.Domain\WS.Product.Domain.csproj", "{52FF1977-86F1-4097-A06A-E4352F3F749A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Product.Domain", "Services\Product\WS.Product.Domain\WS.Product.Domain.csproj", "{52FF1977-86F1-4097-A06A-E4352F3F749A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Product.ApplicationService", "Services\Product\WS.Product.ApplicationService\WS.Product.ApplicationService.csproj", "{8FAA9477-7E2E-4ED5-8E4C-AA430EFFC0EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Product.ApplicationService", "Services\Product\WS.Product.ApplicationService\WS.Product.ApplicationService.csproj", "{8FAA9477-7E2E-4ED5-8E4C-AA430EFFC0EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Product.Infrastructure", "Services\Product\WS.Product.Infrastructure\WS.Product.Infrastructure.csproj", "{06F2EF4C-38D9-4998-BFCD-9E44B761C143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Product.Infrastructure", "Services\Product\WS.Product.Infrastructure\WS.Product.Infrastructure.csproj", "{06F2EF4C-38D9-4998-BFCD-9E44B761C143}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Product.Dtos", "Services\Product\WS.Product.Dtos\WS.Product.Dtos.csproj", "{04476F3A-660F-4CE4-9BD2-0876B670EE63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Shared.ApplicationService", "Services\Shared\WS.Shared.ApplicationService\WS.Shared.ApplicationService.csproj", "{D242042F-0B3C-4B26-95DF-4D97B4DF7898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Shared.ApplicationService", "Services\Shared\WS.Shared.ApplicationService\WS.Shared.ApplicationService.csproj", "{D242042F-0B3C-4B26-95DF-4D97B4DF7898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Constant", "Services\Shared\WS.Constant\WS.Constant.csproj", "{EA2247CF-EFCC-4842-AE82-C0C97154CB1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Constant", "Services\Shared\WS.Constant\WS.Constant.csproj", "{EA2247CF-EFCC-4842-AE82-C0C97154CB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WS.Auth.Dtos.UserModule
+namespace WS.Product.Dtos.ProductModule
 {
-    public class CreateUserDto
+    public class UpdateProductDto
     {
-        public int  Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
+        public int Quantity { get; set; }
     }
 }
